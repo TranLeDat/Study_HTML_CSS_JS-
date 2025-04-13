@@ -1,0 +1,57 @@
+:root{
+    
+    --box-font-size:2rem;
+    --box-height:200px;
+    --box-color:blue;
+    --box-border-radius:1rem;
+    --box-background-color: #fcf;
+    --box-margin-bottom:10px;
+}
+
+.box1{
+    font-size: var(--box-font-size);
+    height: var(--box-height);
+    background-color: var(--box-background-color);
+    color: var(--box-color);
+    margin-bottom: var(--box-margin-bottom);
+    border-radius: var(--box-border-radius);
+}
+
+.box2{
+    font-size: var(--box-font-size);
+    height: var(--box-height);
+    background-color: var(--box-background-color);
+    color: var(--box-color);
+    border-radius: var(--box-border-radius);
+    margin-bottom: var(--box-margin-bottom);
+}
+
+.box3{
+    font-size: var(--box-font-size);
+    height: var(--box-height);
+    background-color: var(--box-background-color);
+    color: var(--box-color);
+    border-radius: var(--box-border-radius);
+    margin-bottom: var(--box-margin-bottom);
+}
+
+.box3{
+    height: 500px;
+}
+
+.box4{
+    font-size: var(--box-font-size);
+    height: var(--box-height);
+    background-color: var(--box-background-color, red);
+}
+
+.detail{
+    --p_font-size: 40px;
+    /* font-size: 30px; */
+    font-size: var(--p_font-size);
+}
+
+.detail span{
+    font-size: var(--p_font-size);
+}
+

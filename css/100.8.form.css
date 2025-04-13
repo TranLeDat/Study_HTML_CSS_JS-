@@ -1,0 +1,14 @@
+input:placeholder-shown{
+    background-color: aqua;
+}
+input:not(:placeholder-shown){
+    background-color: yellow;
+}
+
+.login-form:focus-within{
+    background-color: chartreuse;
+}
+
+.login-form:focus-within button{
+    background-color: chocolate;
+}

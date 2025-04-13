@@ -1,0 +1,14 @@
+.nav{
+    height: 100px;
+    background-color:#ccc;
+    /* width: calc(100% - 100px); */
+    /* width: calc(2 * 100px); */
+    width: calc(500px / 2);
+    margin: 0 auto;
+
+}
+
+.main_content{
+    background-color: cadetblue;
+    height: calc(100vh - 100px);
+}

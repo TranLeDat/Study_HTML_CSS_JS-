@@ -1,0 +1,31 @@
+body{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.container{
+    height: 150px;
+    display: flex;
+    background-color: aqua;
+    /* align-items: flex-start; */
+}
+
+.box{
+    background-color: blue;
+    border: 1px solid black;
+    /* flex-grow: 1; */
+}
+/* .box1{
+    align-self: center;
+}
+.box2, .box3{
+    align-self: stretch;
+} */
+
+.box1, .box2{
+    flex-grow: 4;
+}
+
+.box3{
+    flex-grow: 2;
+}

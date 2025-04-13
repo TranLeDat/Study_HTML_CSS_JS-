@@ -1,0 +1,43 @@
+body{
+    font-size: 20px;
+}
+
+/* .top:not(p){
+    color: brown;
+}
+ .top:not(h3){
+    color: chartreuse;
+ } */
+
+ /* .top:not(:first-of-type){
+    background-color: blueviolet;
+ }
+
+ .bot:not(:first-of-type){
+    background-color: darksalmon;
+ } */
+
+
+/* universal selector */
+ *{
+    color: red ;
+ }
+
+ /* element selector */
+ h1{
+    color: blue !important;
+ }
+
+ /* class - pseudo-class */
+
+ .demo{
+    color: green;
+ }
+
+ /* id */
+ #test{
+    color: yellow;
+ }
+
+
+

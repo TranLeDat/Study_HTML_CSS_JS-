@@ -1,0 +1,24 @@
+body{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    font-family: "Roboto Slab", serif;
+}
+
+
+p{
+    /* word-spacing: 5px;
+    letter-spacing: 20px;
+    letter-spacing: -20px; */
+
+    text-align: center;
+    /* text-align-last: left;
+    text-align: right;
+    text-align: justify; */
+}

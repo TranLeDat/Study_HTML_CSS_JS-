@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    /* box-shadow: 0 0 20px black; */
+    /* filter: drop-shadow(0 0 20px black); */
+}
+
+
+.chat{
+    max-width: 300px;
+    font-size: 1.6rem;
+    -webkit-filter: drop-shadow(0 0 2px black);    filter: drop-shadow(0 0 2px black);    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.chat::after{
+    content: "";
+    position: absolute;
+    border: 20px solid;
+    border-color: #fff transparent transparent;
+    right: 5%;
+    bottom: -39px;
+}
+
+.icon{
+    filter: brightness(0) saturate(100%) invert(25%) sepia(92%) saturate(2509%) hue-rotate(257deg) brightness(97%) contrast(112%);
+}
+
+img{
+    filter: hue-rotate(40deg);
+    width: 200px;
+}

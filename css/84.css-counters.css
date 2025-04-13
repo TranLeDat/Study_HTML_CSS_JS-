@@ -1,0 +1,25 @@
+.box{
+    counter-reset: section;
+    padding-left: 10px;
+    background-color: aqua;
+}
+
+h2{
+   counter-increment: section;
+   counter-reset: subsection;
+}
+
+h2::before{
+    color: red;
+   content: "Phan " counter(section) ": ";
+}
+
+h3{
+    counter-increment: subsection;
+    padding-left: 15px;
+}
+
+h3::before{
+    color: tomato;
+    content: counter(section) "." counter(subsection);
+}

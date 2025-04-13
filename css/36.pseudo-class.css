@@ -1,0 +1,50 @@
+p{
+    font-size: 20px;
+}
+
+/* 
+
+p:first-child{
+    color: chocolate;
+}
+
+p:last-child{
+    color: chartreuse;
+}
+
+p:nth-child(2){
+    color:blue;
+} */
+
+
+ /* p:nth-child(even){
+    color: blue;
+}
+p:nth-child(odd){
+    color: green;
+} 
+
+p:nth-child(3n+1){
+    color: blue;
+} */
+
+/* p:nth-last-child(2){
+    color: chartreuse;
+} */
+
+
+/* p:nth-last-child(even){
+    color: green;
+}
+p:nth-last-child(odd){
+    color: blue;
+} 
+
+p:nth-last-child(2n+1){
+    color: chocolate;
+} */
+
+
+p:only-child{
+    color: springgreen;
+}

@@ -1,0 +1,26 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Slab", serif;
+}
+
+strong{
+    /* text-decoration: none;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+
+    text-decoration: overline line-through; */
+
+    text-decoration: underline dashed blue 10px;
+}
+
+
+.line{
+    /* text-transform: capitalize;
+    text-transform: lowercase; */
+    text-transform: uppercase;
+    text-indent: 20px;
+    /* text-indent: -20px; */
+}
+ 

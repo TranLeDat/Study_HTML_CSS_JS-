@@ -1,0 +1,33 @@
+.box1, 
+.box4,
+.box5{
+    background: chocolate;
+}
+
+.box2, 
+.box3{
+    background: cyan;
+}   
+
+.box{
+    border-radius: 15px;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    align-items: stretch;
+    /* align-items: start;
+    align-items: center;
+    align-items: end; */
+    justify-items: stretch;
+    /* justify-items: start;
+    justify-items: center;
+    justify-items: end; */
+    gap: 15px;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 50px 100px 200px; 
+}

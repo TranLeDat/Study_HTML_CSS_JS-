@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/100.6.form.css">
+    <title>Bai 100 part 6 - Dropdown & textarea</title>
+</head>
+<body>
+    <p>1.Textarea</p>
+    <form action="">
+        <label for="message">Message: </label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Nhap vao day"></textarea>
+        <br>
+        <input type="submit" value="send me">
+    </form>
+
+    <p>2.Dropdown</p>
+    <form action="">
+        <label for="color">Chon mau</label>
+        <br>
+        <select name="color" id="color" required>
+            <option value="" selected>-chon mau-</option>
+            <option value="red">Red</option>
+            <option value="blue" >Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <button>Xac nhan mau</button>
+    </form>
+    <form action="">
+        <label for="tinh">Tinh: </label>
+        <select name="tinh" id="tinh" required>
+            <option value="" selected>-chon tinh-</option>
+            <optgroup label="Mien Bac">
+                <option value="vinh phuc">Vinh phuc</option>
+                <option value="ha noi">Ha Noi</option>
+                <option value="lao cai">Lao cai</option>
+            </optgroup>
+            <optgroup label="Mien Trung">
+                <option value="da nang">Da Nang</option>
+                <option value="quang ninh">Quang Ninh</option>
+                <option value="binh duong">Binh Duong</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>

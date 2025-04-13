@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+
+/* .parent{
+    font-size: 10px;
+}
+.child{
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: chartreuse;
+    border: 0.2rem solid black;
+} */
+
+h1{
+    font-size: 4.4rem; 
+    /* 44/16 =  */
+}
+p{
+    font-size: 2.3rem;
+    /* 23/16 =  */
+}
+
+.box{
+    width: 22rem;
+    height: 18rem;
+    background-color: aqua;
+}

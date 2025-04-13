@@ -1,0 +1,67 @@
+body{
+    font-size: 2rem;
+
+}
+
+.title{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(231, 67, 67);
+    top: 0;
+    left: 0;
+    /* inset: 0px 0px 0px 0px; */
+}
+
+/* ul{
+    display: flex;
+} */
+
+.title li{
+    display: inline-block;
+}
+
+.title li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;;
+}
+/* li{
+    margin-left: 30px;
+    list-style: none;
+    color: white;
+} */
+
+
+.message{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+}
+.mess{
+    position: relative;
+
+    display: inline-block;
+}
+.number{
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+i{
+    color: #0082ff;
+    
+}
+
+
+.content{
+    margin-top: 100px;
+}

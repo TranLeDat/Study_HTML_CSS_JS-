@@ -1,0 +1,43 @@
+
+.demo{
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    color: aqua;
+    background-color: blueviolet;
+    /* padding: 30px; */
+    /* padding-right: 20px;
+    padding-top: 20px; */
+    padding: 10px 20px 30px 40px;
+
+    border: 5px solid crimson;
+
+
+    /* border: 10px double chocolate; */
+    /* dashed - duong net dut */
+    /* Dotted - vien la cac cham dot */
+    /* double - Vien co 2 duong cong lien nhau  */
+    /* groove - Vien 3D */
+    /* ridge: Vien 3D */
+    /* inset - Vien 3D */
+    /* outset  - vien 3D*/
+
+    /* border-top:10px dashed red;
+    border-bottom: 10px groove red;
+    border-right: 10px ridge red;
+    border-left: 10px inset red; */
+
+    /* border-width: 10px 20px 30px 40px;
+    border-style: dashed dotted double outset;
+    border-color: red green blue yellow; */
+
+     /* border-radius: 10px; */
+
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+
+    border-radius: 30px 10px;
+
+}

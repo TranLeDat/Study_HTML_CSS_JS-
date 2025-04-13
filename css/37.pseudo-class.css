@@ -1,0 +1,47 @@
+body{
+    font-size: 20px;
+}
+/* p:first-of-type{
+    color: brown;
+}
+
+p:last-of-type{
+    color: chartreuse;
+} */
+
+/* p:nth-last-of-type(2){
+    color:red;
+} */
+
+/* h2:nth-of-type(3){
+    color: blue;
+}
+
+h3:nth-of-type(odd){
+    color: chocolate;
+}
+
+h3:nth-of-type(even){
+    color: chartreuse;
+} */
+
+
+/* p:only-of-type{
+    color: yellowgreen;
+}
+
+h2:nth-of-type(2n+1){
+    color: cornflowerblue;
+} */
+
+
+.top:nth-of-type(2){
+    color: blue;
+}
+.top:nth-of-type(odd){
+    color: green;
+}
+
+.set:only-of-type{
+    color: yellowgreen;
+}

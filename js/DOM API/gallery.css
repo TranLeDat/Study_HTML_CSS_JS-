@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 2px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}

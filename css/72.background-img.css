@@ -1,0 +1,17 @@
+.box{
+    height: 200px;
+    width: 400px;
+    border: 5px dotted red;
+    background-image: url(../img/VIER\ PFOTEN_2020-10-07_00138-1806x1804-720x719.jpg);
+    background-position: right;
+    background-position: top-right;
+    background-position: bottom-right;
+    background-position: -10% -10%;
+    background-repeat: no-repeat;
+
+}
+
+img{
+    width: 20%;
+
+}

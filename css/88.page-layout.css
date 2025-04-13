@@ -1,0 +1,16 @@
+/* body{
+    width: 900px;
+} */
+
+.pic1{
+    width: 300px;
+    float: left;
+}
+
+.pic2{
+    width: 300px;
+    float: right;
+}
+.text{
+    clear: both !important;
+}

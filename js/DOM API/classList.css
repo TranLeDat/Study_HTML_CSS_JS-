@@ -1,0 +1,20 @@
+body{
+    font-size: 36px;
+}
+.myClass{
+    color: aqua;
+    font-size: 24px;
+}
+.newClass{
+    background: #000;
+    color: white;
+    font-size: 36px;
+    
+}
+
+
+.abc{
+    background-color: greenyellow;
+    color: chocolate;
+    font-size: 50px;
+}

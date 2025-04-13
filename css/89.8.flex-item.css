@@ -1,0 +1,26 @@
+body{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.container{
+    height: 150px;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    /* overflow: auto; */
+    /* flex-wrap: wrap; */
+}
+
+.box{
+    background-color: blue;
+    border: 1px solid black;
+    /* width: 30%; */
+    /* flex-shrink: 0; */
+
+    flex-basis: 30%;
+}
+
+/* .box1, .box2{
+    flex-shrink: 1;
+} */

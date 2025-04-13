@@ -1,0 +1,22 @@
+
+.demo{
+    background-color: yellow;
+    width: 800px;
+    /* text-align: center; */
+    margin: 10px;
+    font-size: 20px;
+}
+.title{
+    padding-left: 270px;
+}
+
+.content1{
+    padding-left: 200px;
+}
+.content2{
+    padding-left: 240px;
+}
+
+img{
+    padding-left: 80px;
+}

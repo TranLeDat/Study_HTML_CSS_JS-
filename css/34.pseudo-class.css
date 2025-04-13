@@ -1,0 +1,26 @@
+.click{
+    font-size: 20px;
+}
+/* Tac dong len selector khi an giu */
+.click:active{
+    color: green;
+}
+/* Tac dong len selector khi chua click truy cap */
+.click:link{
+    color:chocolate;
+}
+ /* Tac dong len selector khi da click truy cap  */
+.click:visited{
+    color: red;
+}
+
+
+
+.click_me:link{
+    color: chocolate;
+    font-size: 20px;
+}
+.click_me:visited{
+    color: blue;
+    font-size: 25px;
+}

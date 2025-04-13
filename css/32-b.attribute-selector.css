@@ -1,0 +1,30 @@
+/* a[href]{
+    color: blueviolet;
+} */
+/* 
+[target="_blank"]{
+    color: red;
+} */
+
+[title ~= "tuhoc.c"]{
+    color: green;
+    font-size: 20px;
+}
+
+[title *= "tuhoc.cc"]{
+    color: blueviolet;
+    font-size: 30px;
+}
+[title |= "boot"]{
+    color: red;
+    font-size: 40px;
+}
+[title ^= "pic"]{
+    color: blue;
+    font-size: 50px;
+}
+
+[title $="o"]{
+    color:chocolate;
+    font-size: 60px;
+}

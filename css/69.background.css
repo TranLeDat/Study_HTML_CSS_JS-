@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+.box{
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    background-color: rgb(234, 100, 67);
+    background-color: rgba(234, 100, 67, 0.686);
+    background-color: #c3f411;
+    background-color: currentColor;
+    margin: 45px;
+    padding: 20px;
+    border: 20px dotted red;
+}

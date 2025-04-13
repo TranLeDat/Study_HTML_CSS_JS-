@@ -1,0 +1,32 @@
+h1{
+    /* color: rgb(77, 77, 177); */
+    /* color: rgb(123 23 45); */
+
+    /* color: rgba(245, 45, 78, 0.6); */
+    /* color: rgb(200, 100, 150, 0.9); */
+    /* color: rgb(23 145 67 / 0.5); */
+
+    color: #afc;
+    color: #ff8ca7;
+    color: #1fa5a9fa;
+    color: #c6c6c6;
+
+
+}
+
+.box{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    color: green;
+    /* background-color: currentColor; */
+    outline:  5px solid currentColor;
+    outline-offset: 5px; 
+    
+}
+
+.child{
+    background-color: currentColor;
+    width: 50%;
+    height: 50%;
+}

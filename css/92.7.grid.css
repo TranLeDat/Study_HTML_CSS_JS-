@@ -1,0 +1,28 @@
+.box1, 
+.box4,
+.box5{
+    background: chocolate;
+}
+
+.box2, 
+.box3{
+    background: cyan;
+}   
+
+.box{
+    border-radius: 15px;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: grid;
+    gap: 5px;
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}   

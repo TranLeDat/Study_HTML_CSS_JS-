@@ -1,0 +1,27 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: chartreuse;
+    color: chocolate;
+    font-size: 3rem;
+    /* 1.  Rotate (Xoay):*/
+    transform: rotate(45deg) ; 
+    /* rotate: 45deg;  */
+
+    /* 2. Scale */
+    /* transform: scale(1.5, 0.5); */
+    /* scale: 2; */
+    
+    /* 3. Skew */
+    /* transform: skew(20deg, 10deg); */
+    /* skew: 20deg; */
+    
+    /* 4. Translate */
+    /* transform: translate(50px, 100px); */
+    /* transform: translateX(50px); */
+    /* transform: translateY(100px); */
+    /* translate: 50px; */
+    
+   transform: scale(2) rotate(45deg) skew(20deg, 10deg) translate(50px, 100px);
+}

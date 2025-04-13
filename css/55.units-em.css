@@ -1,0 +1,21 @@
+/* .parent{
+    font-size: 2em;
+}
+
+.child{
+    width: 10em;
+    height: 10em;
+     font-size: 10px; 
+    background-color: chocolate;
+} */
+
+
+.parent{
+    font-size: 10px;
+}
+.child{
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    background-color: chartreuse;
+}

@@ -1,0 +1,42 @@
+/* *{
+    color: blue;
+}
+
+li, .text{
+    font-size: 50px;
+}
+
+h1, h2.text{
+    font-size: 40px;
+    color: red;
+
+}
+.text.title{
+    font-size: 60px;
+    color: green;
+}
+div>p{
+    color: chartreuse;
+}
+
+.var p{
+    font-size: 30px;
+} */
+
+/* h1+h2{
+    color: yellowgreen;
+}
+.text + h3, h4{
+    color: chocolate;
+} */
+
+h1 ~p, h2{
+    color: coral;
+}
+div~div{
+    color: darkturquoise;
+}
+ 
+div~a{
+    color: darkmagenta;
+}

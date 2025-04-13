@@ -1,0 +1,48 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+} */
+.box{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    border: 18px solid red; 
+}
+.box1{
+    margin-bottom: 50px;
+} 
+.box2{
+    margin-top: 70px;
+}
+
+.box-parent{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    height: 250px;
+    margin-top: 120px;
+}
+
+.box-child{
+    background-color: blue;
+    width: 50%;
+    margin: 0;
+    margin-top: 70px;
+}
+
+/* .title{
+    font-size: 20px;
+    background-color: chartreuse;
+    border: 2px solid chocolate;
+}
+
+.title1{
+    margin-right: 10px;
+}
+.title2{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.title3{
+    margin-left: 20px;
+} */

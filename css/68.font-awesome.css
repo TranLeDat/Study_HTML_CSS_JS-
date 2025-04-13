@@ -1,0 +1,15 @@
+li{
+    list-style-type: none;
+    margin-top: 4px;
+}
+.fa-solid, .fa-brands{
+    color: turquoise;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.fa-facebook{
+    color: rgb(89, 89, 244);
+}
+.fa-youtube{
+    color: red;
+}

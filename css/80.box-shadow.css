@@ -1,0 +1,20 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    background-color: #b098f3;
+    border: 5px solid #221ef8;
+    border-radius: 5px;
+
+
+        /* box-shadow: 90px 20px rgba(123, 145, 56, 1);
+        box-shadow: 90px 20px 5px rgba(123, 145, 56, 1);
+        box-shadow: 90px 20px 5px 10px rgba(123, 145, 56, 1);
+
+        box-shadow: 90px 20px 20px 20px rgba(123, 145, 56, 0.9); */
+    /* box-shadow: inset 10px 50px 2px 20px rgb(64, 82, 9); */
+
+    box-shadow: 240px 0px #fc6a4a, 0 240px #f25a7c ;
+    border-radius: 30px;
+
+}

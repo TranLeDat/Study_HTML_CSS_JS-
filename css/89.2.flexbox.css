@@ -1,0 +1,19 @@
+*{
+    font-size: 1.5rem;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content:  space-between; */
+    justify-content: space-evenly;
+}
+
+.box{
+    background-color: brown;
+    
+}

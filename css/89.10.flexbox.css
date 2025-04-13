@@ -1,0 +1,37 @@
+body{
+    font-size: 1.8rem;
+    
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+/* .box1{
+    background-color: yellow;
+}
+.box2{
+    background-color: chocolate;
+    margin-left: auto;
+}
+.box3{
+    background-color: red;
+    margin-left: auto;
+
+}
+.box4{
+    background-color: purple;
+} */
+
+
+.fa-youtube{
+    font-size: 1.5rem;
+    color: red;
+   margin: auto;
+    
+}

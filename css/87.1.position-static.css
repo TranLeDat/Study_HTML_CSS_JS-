@@ -1,0 +1,45 @@
+:root{
+    
+    --box-font-size:2rem;
+    --box-height:200px;
+    --box-width:200px;
+    --box-color:white;
+    --box-border-radius:1rem;
+    --box-background-color: #fcf;
+    --box-margin-bottom:10px;
+}
+
+.box{
+    font-size: var(--box-font-size);
+    color: var(--box-color);
+    height: var(--box-height);
+    width: var(--box-width);
+    /* Can giua text cac khoi  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: red;
+    position: static;
+}
+
+.box2{
+    background-color: green;
+    position:relative;
+    /* left: 50px; */
+    right: 50px;
+    top: 50px;
+    /* bottom: 50px; */
+
+}
+
+.box3{
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+}
+h1{
+    background-color: coral;
+}

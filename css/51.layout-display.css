@@ -1,0 +1,42 @@
+body{
+    width: 650px;
+}
+strong{
+    padding: 30px;
+    /* margin: 30px; */
+    /* height: 100px;
+    width: 100px; */
+    background-color: blue;
+    display: inline-block;
+}
+
+.button{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+a{
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: pink;
+    border-radius: 999px;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    margin:20px;
+}
+
+.click:hover{
+    background-color: red;
+    color: white;
+}
+
+.click:active{
+    background-color: chocolate;
+    color: white;
+}
+
+

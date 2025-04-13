@@ -1,0 +1,28 @@
+
+.box{
+    margin: 50px;
+    background-color: rgb(244, 150, 150);
+    position: relative;
+    display: inline-block;
+}
+
+.title{
+    position: absolute;
+    width: 30px;           
+    height: 30px;
+    background-color: rgb(153, 7, 7);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    left: 60px;
+    top: 0;
+}
+
+i{
+    font-size: 5rem ;
+    color: rgb(228, 25, 25);
+
+}

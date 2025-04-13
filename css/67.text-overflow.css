@@ -1,0 +1,15 @@
+h1{
+    width: 200px;
+    background-color: chocolate;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h2{
+    background-color: chartreuse;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}

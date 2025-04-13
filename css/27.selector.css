@@ -1,0 +1,21 @@
+.text{
+    color: blueviolet;
+    font-size: 20px;
+
+}
+
+#line4{
+    color: aqua;
+}
+
+#dv2{
+    color: red;
+    font-size: 20px;
+}
+ .title{
+    font-size: 30px;
+ }
+
+.list_item{
+    list-style: none;
+}
